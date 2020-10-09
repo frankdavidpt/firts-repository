@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#header {
+    position: fixed;
+    width: 370px;
+    z-index: 1;
+    background-color: darkcyan;
+    color: black;
+    height: 90px;
+    padding: 10px 10px 10px 10px;
+}
+#header-img {
+    width: 100%;
+}
+
+#nav-bar {
+   padding-left: 35px;
+   word-spacing: 20px;
+
+}
+
+.nav-link {
+    list-style: none;
+    display: inline-block;
+}
+
+article {
+    padding: 150px 10px 10px 15px;;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+} 
+
+#form {
+    line-height: 35px;
+    height: 100px;
+}
+
+#form #email-usuario {
+    width: 200px;
+    height: 25px;
+    margin-left: 65px;
+    padding-left: 7px;
+    border-width: 2px;
+}
+
+#form .submit {
+    margin-left: 106px;
+    background-color: darkcyan;
+    width: 120px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.feature {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.calidad, .garantia, .envio  {  
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: rgb(247, 247, 247);
+    word-spacing: 1px;
+    height: 150px;
+}
+
+h2  {
+    margin-bottom: 8px;
+    padding: 6px 4px 0px 4px;
+}
+
+p {
+    text-indent: 10px;
+    padding: 0px 4px 2px 4px;
+}
+
+#video {
+    height: 200px;
+    width: 250px;
+    margin-left: 43px;
+}
+
+.price {
+    box-sizing: border-box;
+    height: 288px;
+    margin: 30px 20px 10px 20px;
+}
+
+.price1, .price2, .price3 {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: rgb(247, 247, 247);
+    word-spacing: 1px;
+    height: 80px;
+}
+
