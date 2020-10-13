@@ -72,7 +72,7 @@ article {
     height: 150px;
 }
 
-h2  {
+h2, h4  {
     margin-bottom: 8px;
     padding: 6px 4px 0px 4px;
 }
@@ -90,16 +90,37 @@ p {
 
 .price {
     box-sizing: border-box;
-    height: 288px;
+    height: 455px;
     margin: 30px 20px 10px 20px;
 }
 
 .price1, .price2, .price3 {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     box-sizing: border-box;
     margin-bottom: 10px;
     background-color: rgb(247, 247, 247);
     word-spacing: 1px;
-    height: 80px;
+    height: 145px;
+}
+
+button {
+    margin-left: 123px;
+    margin-top: 7px;
+    width: 80px;
+    height: 23px;
+    background-color: darkcyan;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    background-color: darkcyan;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.icon-mail4 {
+    float: right;
 }
 
